@@ -18,7 +18,7 @@ html, body {
   display: grid;
   place-items: center;
   height: 400px;
-  background-image: url("https://pixabay.com/get/ge04c36743fcfa6c1805ac7e837e7fb1bf1201fad07076845d66e185c5a3288a907f3dae6195b5574aa9b19ea67e4cd7e7f4263b5fb8c9b66fc5406eead4518c8_1280.jpg");
+  background-image: url("assets/universe-1566161_1280.jpg");
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center center;
