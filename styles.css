@@ -33,6 +33,7 @@ h1 {
   background-color: rgba(0, 123, 255, 0.3);
   color: #f1c40f;
   border-radius: 20px;
+  text-shadow: 3px 3px 3px black;
 }
 
 a {
