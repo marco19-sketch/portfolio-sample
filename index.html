@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Personal Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <a href="#projects">Projects</a>
+      <a href="#bio">Bio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <section id="welcome-section">
+      <h1>Welcome to my Page</h1>
+    </section>
+    <section id="projects">
+      <div class="project-tile">
+        <article class="slide-in">
+          <h2>Book Finder App</h2>
+          <p>
+            Book Finder App is a React-based application that allows users to
+            search for books by title, or author using the Google Books API. It
+            features a clean UI with dynamic search results, detailed book
+            modals, and accessibility enhancements like screen reader support.
+            Users can view book thumbnails, descriptions, and direct purchase
+            links via Amazon affiliate integration. The app uses lazy loading
+            and Suspense to optimize performance and loading times. Favorites
+            can be saved locally, with instant visual feedback and animations.
+            Responsive design ensures usability across desktop and mobile
+            devices. Search suggestions help refine queries based on user input.
+            Built with React, Vite, React Router, and custom hooks for
+            modularity and maintainability.
+          </p>
+        </article>
+        <a href="https://book-finder-advanced.netlify.app/">
+          <img
+            src="assets/compressed-img/Book-finder.webp"
+            class="slide-in-right"
+            alt="preview of the book-finder app" />
+        </a>
+      </div>
+      <div class="project-tile">
+        <a href="https://marco19-sketch.github.io/marco-web/">
+          <img
+            class="slide-in"
+            src="assets/guitars.png"
+            alt="preview of my Website on guitars" />
+        </a>
+        <article class="slide-in-right">
+          <h2>Product Landing Page – HTML & CSS Learning Project</h2>
+          <p>
+            This landing page project was built as part of the freeCodeCamp
+            Responsive Web Design Certification, which I successfully completed.
+            The page showcases three electric guitars (Ibanez, Gibson, and
+            Squier) and includes internal navigation, embedded video content,
+            responsive layout, and a mock newsletter form. The goal of the
+            project was to practice semantic HTML, layout with CSS, image
+            handling, anchor navigation, and accessibility basics — all without
+            using JavaScript. It served as a great introduction to building
+            structured, responsive web pages from scratch.
+          </p>
+        </article>
+      </div>
+      <hr id="in-between" />
+      <div class="project-tile">
+        <article class="slide-in">
+          <h2>Survey Form</h2>
+          <p>
+            A simple HTML and CSS-only form project built during the
+            freeCodeCamp curriculum. It collects user input through styled
+            fields like text inputs, dropdowns, and radio buttons. Fully
+            responsive and semantically structured for accessibility.
+          </p>
+        </article>
+        <a href="assets/survey form.png">
+          <img
+            class="slide-in-right"
+            src="assets/survey form.png"
+            alt="survey form sample" />
+        </a>
+      </div>
+      <hr id="in-between" />
+      <div class="project-tile">
+        <a href="">
+          <img
+            class="slide-in"
+            src="assets/technical page.png"
+            alt="technical page sample" />
+        </a>
+        <article class="slide-in-right">
+          <h2>Technical Documentation Page</h2>
+          <p>
+            A responsive HTML and CSS-only page built while following the
+            freeCodeCamp course. It features a clean sidebar navigation and
+            structured content sections. Focused on accessibility, semantic
+            HTML, and responsive layout principles.
+          </p>
+        </article>
+      </div>
+      <hr id="in-between" />
+      <div class="project-tile">
+        <article class="slide-in">
+          <h2>Tribute Page</h2>
+          <p>
+            A beginner-friendly project created during the freeCodeCamp
+            Responsive Web Design course. This static HTML/CSS page is a tribute
+            to a notable figure, featuring a clean layout, semantic structure,
+            and a responsive design. It demonstrates foundational skills in
+            layout, typography, and accessible web development.
+          </p>
+        </article>
+        <a href="">
+          <img
+            class="slide-in-right"
+            src="assets/Malcolm X.png"
+            alt="History of Malcolm X sample" />
+        </a>
+      </div>
+    </section>
+    <hr />
+    <section id="bio">
+      <h3 class="slide-in-right" id="bio">About me</h3>
+      <p class="slide-in" id="bio-para">
+        I’m a former electrician with a background in electronics repair, now
+        transitioning into web development. Outside of tech, I enjoy playing
+        guitar and hiking in nature. I'm fluent in both Italian (native) and
+        English. Currently, I’m focused on building a solid foundation in
+        front-end development through hands-on projects and continuous learning.
+      </p>
+    </section>
+    <hr />
+    <footer id="contact" class="site-footer slide-in">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Contact Me</h3>
+          <ul class="contact-links">
+            <li>
+              <a
+                href="mailto:your.email@example.com"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i class="fas fa-envelope"></i> marco.brusca1970@gmail.com
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/marco19-sketch"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-github"></i> https://github.com/marco19-sketch
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://wa.me/1234567890"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i> +1 234 567 890
+              </a>
+            </li>
+            <li>
+              <a
+                id="profile-link"
+                href="https://www.freecodecamp.org/Marco19_70"
+                target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-free-code-camp"></i>
+                www.freecodecamp.org/Marco19_70
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Marco Brusca. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
